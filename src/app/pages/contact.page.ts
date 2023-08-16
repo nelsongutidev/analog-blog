@@ -1,15 +1,15 @@
 import { Component } from '@angular/core';
-import { RouterLink, RouterModule } from '@angular/router';
+import { RouterLink } from '@angular/router';
 
 @Component({
-  selector: 'app-about',
+  selector: 'app-contact',
   standalone: true,
   template: `
     <div class="hero">
       <div class="hero-content text-center">
         <div class="max-w-md">
           <h1 class="text-5xl font-bold">Hello there</h1>
-          <p class="py-6">About Page</p>
+          <p class="py-6">Contact Page</p>
           <button class="btn btn-primary">Get Started</button>
         </div>
       </div>
@@ -18,4 +18,4 @@ import { RouterLink, RouterModule } from '@angular/router';
   styles: [],
   imports: [RouterLink],
 })
-export default class AboutComponent {}
+export default class ContactComponent {}

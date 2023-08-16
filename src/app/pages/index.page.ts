@@ -5,29 +5,22 @@ import { RouterLink } from '@angular/router';
   selector: 'app-home',
   standalone: true,
   template: `
-    <div>
-      <h1>Home</h1>
-      <p>this is the home page</p>
-      <a routerLink="/about">About</a>
-      <a routerLink="/">Home</a>
+    <div class="hero min-h-screen">
+      <div class="hero-overlay bg-opacity-80"></div>
+      <div class="hero-content text-center text-neutral-content">
+        <div class="max-w-md">
+          <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
+          <p class="mb-5">
+            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
+            excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
+            a id nisi.
+          </p>
+          <button class="btn btn-primary">Get Started</button>
+        </div>
+      </div>
     </div>
   `,
-  styles: [
-    `
-      .logo {
-        will-change: filter;
-      }
-      .logo:hover {
-        filter: drop-shadow(0 0 2em #646cffaa);
-      }
-      .logo.angular:hover {
-        filter: drop-shadow(0 0 2em #42b883aa);
-      }
-      .read-the-docs {
-        color: #888;
-      }
-    `,
-  ],
+  styles: [],
   imports: [RouterLink],
 })
 export default class HomeComponent {
