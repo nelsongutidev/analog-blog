@@ -1,21 +1,22 @@
+import { injectContentFiles } from '@analogjs/content';
 import { Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
+import { PostAttributes } from './blog/index.page';
 
 @Component({
   selector: 'app-home',
   standalone: true,
   template: `
     <div class="hero min-h-screen">
-      <div class="hero-overlay bg-opacity-80"></div>
-      <div class="hero-content text-center text-neutral-content">
+      <div class="hero-content text-center text-">
         <div class="max-w-md">
-          <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
-          <p class="mb-5">
+          <h1 class="text-5xl font-bold">Home Page</h1>
+          <p class="py-6">
             Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
             excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
             a id nisi.
           </p>
-          <button class="btn btn-primary">Get Started</button>
+          <button routerLink="/blog" class="btn btn-primary">Blog</button>
         </div>
       </div>
     </div>
@@ -23,10 +24,4 @@ import { RouterLink } from '@angular/router';
   styles: [],
   imports: [RouterLink],
 })
-export default class HomeComponent {
-  count = 0;
-
-  increment() {
-    this.count++;
-  }
-}
+export default class HomeComponent {}

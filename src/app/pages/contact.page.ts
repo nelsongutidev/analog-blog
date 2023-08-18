@@ -5,12 +5,10 @@ import { RouterLink } from '@angular/router';
   selector: 'app-contact',
   standalone: true,
   template: `
-    <div class="hero">
-      <div class="hero-content text-center">
+    <div class="hero min-h-screen">
+      <div class="hero-content text-center text-">
         <div class="max-w-md">
-          <h1 class="text-5xl font-bold">Hello there</h1>
-          <p class="py-6">Contact Page</p>
-          <button class="btn btn-primary">Get Started</button>
+          <h1 class="text-5xl font-bold">Contact 22</h1>
         </div>
       </div>
     </div>

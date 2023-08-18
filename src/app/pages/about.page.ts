@@ -5,12 +5,10 @@ import { RouterLink, RouterModule } from '@angular/router';
   selector: 'app-about',
   standalone: true,
   template: `
-    <div class="hero">
-      <div class="hero-content text-center">
+    <div class="hero min-h-screen">
+      <div class="hero-content text-center text-">
         <div class="max-w-md">
-          <h1 class="text-5xl font-bold">Hello there</h1>
-          <p class="py-6">About Page</p>
-          <button class="btn btn-primary">Get Started</button>
+          <h1 class="text-5xl font-bold">About</h1>
         </div>
       </div>
     </div>
