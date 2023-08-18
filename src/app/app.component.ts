@@ -6,8 +6,8 @@ import { NavigationComponent } from './shared/components/navigation/navigation.c
   standalone: true,
   imports: [RouterOutlet, NavigationComponent],
   template: `
-    <app-navigation />
     <div class="min-h-screen bg-base-100">
+      <app-navigation />
       <router-outlet></router-outlet>
     </div>
   `,

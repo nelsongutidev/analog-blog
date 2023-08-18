@@ -26,6 +26,7 @@
     "@angular/platform-server": "^16.1.0",
     "@angular/router": "^16.1.0",
     "@nx/angular": "^16.4.0",
+    "@tailwindcss/typography": "^0.5.9",
     "front-matter": "^4.0.2",
     "marked": "^5.0.2",
     "marked-gfm-heading-id": "^3.0.4",

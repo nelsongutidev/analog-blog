@@ -1,13 +1,11 @@
-import { injectContentFiles } from '@analogjs/content';
 import { Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
-import { PostAttributes } from './blog/index.page';
 
 @Component({
   selector: 'app-home',
   standalone: true,
   template: `
-    <div class="hero min-h-screen">
+    <div class="hero">
       <div class="hero-content text-center text-">
         <div class="max-w-md">
           <h1 class="text-5xl font-bold">Home Page</h1>

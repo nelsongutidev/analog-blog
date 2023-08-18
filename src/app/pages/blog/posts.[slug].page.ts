@@ -15,8 +15,9 @@ export interface PostAttributes {
   imports: [MarkdownComponent, AsyncPipe, NgIf],
   template: `
     <ng-container *ngIf="post$ | async as post">
-      <h1>{{ post.attributes.title }}</h1>
-      <analog-markdown [content]="post.content"></analog-markdown>
+      <article class="prose prose-slate  dark:prose-invert ">
+        <analog-markdown [content]="post.content"></analog-markdown>
+      </article>
     </ng-container>
   `,
 })
