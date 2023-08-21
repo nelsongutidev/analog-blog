@@ -1,10 +1,6 @@
 <div class="navbar bg-base-200">
   <div class="navbar-start">
-    <a
-      class="flex items-center justify-center pl-4"
-      routerLink="/"
-      routerLinkActive="underline"
-    >
+    <a class="flex" routerLink="/" routerLinkActive="underline">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
@@ -33,7 +29,7 @@
   <div class="navbar-end">
     <select
       id="themeSelector"
-      class="select select-bordered select-sm w-32"
+      class="select select-bordered select-sm w-16"
       (input)="onThemeChange($event)"
     >
       <option
@@ -41,7 +37,7 @@
         [value]="theme"
         [selected]="theme === selectedTheme()"
       >
-        {{ theme }}
+        {{ theme === "light" ? "☀️" : theme === "dark" ? "🌙" : "🧁" }}
       </option>
     </select>
   </div>
