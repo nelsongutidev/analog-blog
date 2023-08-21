@@ -1,4 +1,7 @@
-<div class="min-h-screen bg-base-100 flex justify-between flex-col">
+<div
+  [attr.data-theme]="selectedTheme()"
+  class="min-h-screen bg-base-100 flex justify-between flex-col"
+>
   <app-navigation />
   <router-outlet />
   <app-footer />

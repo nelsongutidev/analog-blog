@@ -20,7 +20,9 @@ import { RouterLink } from '@angular/router';
             DaisyUi. AnalogJs is a framework for building web applications with
             web components.
           </p>
-          <a routerLink="/blog" class="btn items-center">Go to Blog Posts</a>
+          <button class="btn items-center bg-base-300">
+            <a routerLink="/blog">Go to Blog Posts</a>
+          </button>
         </div>
       </div>
     </div>

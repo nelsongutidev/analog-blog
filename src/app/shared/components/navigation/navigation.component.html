@@ -1,4 +1,4 @@
-<div class="navbar bg-base-100">
+<div class="navbar bg-base-200">
   <div class="navbar-start">
     <a
       class="flex items-center justify-center pl-4"
@@ -31,8 +31,18 @@
     </ul>
   </div>
   <div class="navbar-end">
-    <a href="https://github.com/nelsongutidev/analog-blog" class="w-12 pr-4">
-      <img src="/github-mark.png" alt="" />
-    </a>
+    <select
+      id="themeSelector"
+      class="select select-bordered select-sm w-32"
+      (input)="onThemeChange($event)"
+    >
+      <option
+        *ngFor="let theme of themes"
+        [value]="theme"
+        [selected]="theme === selectedTheme()"
+      >
+        {{ theme }}
+      </option>
+    </select>
   </div>
 </div>

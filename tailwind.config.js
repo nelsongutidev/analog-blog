@@ -4,22 +4,12 @@ module.exports = {
   theme: {
     extend: {
       typography: {
-        DEFAULT: {
-          // css: {
-          //   code: {
-          //     color: "#333",
-          //     "@apply bg-gray-50 text-gray-700": "",
-          //   },
-          //   "code::before": {
-          //     content: '""',
-          //   },
-          //   "code::after": {
-          //     content: '""',
-          //   },
-          // },
-        },
+        DEFAULT: {},
       },
     },
+  },
+  daisyui: {
+    themes: ["light", "dark", "cupcake"],
   },
   plugins: [require("@tailwindcss/typography"), require("daisyui")],
 };

@@ -1,6 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterLink, RouterLinkActive } from '@angular/router';
+import { THEMES, ThemeService } from '../../services/theme.service';
 
 @Component({
   selector: 'app-navigation',
@@ -18,4 +19,12 @@ export class NavigationComponent {
       label: 'Blog',
     },
   ];
+
+  themeService = inject(ThemeService);
+  selectedTheme = this.themeService.selectedTheme;
+  themes = THEMES;
+
+  onThemeChange(event: any) {
+    this.themeService.selectedTheme.set(event?.target.value);
+  }
 }
