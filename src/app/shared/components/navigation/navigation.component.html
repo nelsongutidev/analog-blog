@@ -1,4 +1,4 @@
-<div class="navbar bg-base-200">
+<div class="navbar bg-base-100">
   <div class="navbar-start">
     <div class="dropdown">
       <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -19,39 +19,48 @@
       </label>
       <ul
         tabindex="0"
-        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 rounded-box w-52"
       >
-        <li><a routerLink="/about">About</a></li>
-        <!-- <li>
-          <a>Parent</a>
-          <ul class="p-2">
-            <li><a>Submenu 1</a></li>
-            <li><a>Submenu 2</a></li>
-          </ul>
-        </li> -->
-        <li routerLink="/contact"><a>Contact</a></li>
-        <li routerLink="/blog"><a>Blog</a></li>
+        <li *ngFor="let link of links">
+          <a class="" [routerLink]="link.path" routerLinkActive="active">{{
+            link.label
+          }}</a>
+        </li>
       </ul>
     </div>
-    <a routerLink="/" class="btn btn-ghost normal-case text-xl">Analog Blog</a>
+    <a
+      class="flex items-center justify-center link link-hover pl-4"
+      routerLink="/"
+      routerLinkActive="active"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        class="w-10 h-10"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"
+        />
+      </svg>
+    </a>
   </div>
   <div class="navbar-center hidden lg:flex">
     <ul class="menu menu-horizontal px-1">
-      <li><a routerLink="/about">About</a></li>
-      <!-- <li tabindex="0">
-        <details>
-          <summary>Parent</summary>
-          <ul class="p-2">
-            <li><a>Submenu 1</a></li>
-            <li><a>Submenu 2</a></li>
-          </ul>
-        </details>
-      </li> -->
-      <li routerLink="/contact"><a>Contact</a></li>
-      <li routerLink="/blog"><a>Blog</a></li>
+      <li *ngFor="let link of links">
+        <a class="" [routerLink]="link.path" routerLinkActive="active">{{
+          link.label
+        }}</a>
+      </li>
     </ul>
   </div>
   <div class="navbar-end">
-    <a class="btn">Button</a>
+    <a href="https://github.com/nelsongutidev/analog-blog" class="w-12 pr-4">
+      <img src="/github-mark.png" alt="" />
+    </a>
   </div>
 </div>

@@ -4,16 +4,16 @@ import { RouterLink, RouterModule } from '@angular/router';
 @Component({
   selector: 'app-about',
   standalone: true,
-  template: `
-    <div class="hero">
-      <div class="hero-content text-center text-">
-        <div class="max-w-md">
-          <h1 class="text-5xl font-bold">About</h1>
-        </div>
-      </div>
-    </div>
-  `,
-  styles: [],
+  templateUrl: './about-index.html',
+  styles: [
+    `
+      :host {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+      }
+    `,
+  ],
   imports: [RouterLink],
 })
 export default class AboutComponent {}

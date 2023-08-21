@@ -1,25 +1,19 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { NavigationComponent } from './shared/components/navigation/navigation.component';
+import { FooterComponent } from './shared/components/footer/footer.component';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, NavigationComponent],
-  template: `
-    <div class="min-h-screen bg-base-100">
-      <app-navigation />
-      <router-outlet></router-outlet>
-    </div>
-  `,
+  imports: [RouterOutlet, NavigationComponent, FooterComponent],
+  templateUrl: './app.component.html',
   styles: [
-    // `
-    //   :host {
-    //     max-width: 1280px;
-    //     margin: 0 auto;
-    //     padding: 2rem;
-    //     text-align: center;
-    //   }
-    // `,
+    `
+      :host {
+        display: flex;
+        flex-direction: column;
+      }
+    `,
   ],
 })
 export class AppComponent {}
