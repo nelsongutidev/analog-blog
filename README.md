@@ -1,26 +1,19 @@
-# Analog App
+# Analog Blog Starter
 
-This project was generated with [Analog](https://analogjs.org), the fullstack meta-framework for Angular.
+This project was generated with [Analog](https://analogjs.org) and [DaisyUI](https://daisyui.com/)
 
-## Setup
+![image](https://github.com/nelsongutidev/analog-blog/assets/62297014/0794a73f-0274-437e-ac30-48f70b368bf7)
 
-Run `npm install` to install the application dependencies.
 
-## Development
+## Project details
 
-Run `npm start` for a dev server. Navigate to `http://localhost:5173/`. The application automatically reloads if you change any of the source files.
+It contains the basic struture to create your own blog site. It has the configuration enabled to prerender the static pages.
 
-## Build
+## Deployment
 
-Run `npm run build` to build the client/server project. The client build artifacts are located in the `dist/analog/public` directory. The server for the API build artifacts are located in the `dist/analog/server` directory.
+Run `ng build ` and make sure your publish directory points to `dist/analog/public`
 
-## Test
+## Support the project
 
-Run `npm run test` to run unit tests with [Vitest](https://vitest.dev).
+- Make sure you visit and Star the [GitHub Repo](https://github.com/analogjs/analog)
 
-## Community
-
-- Visit and Star the [GitHub Repo](https://github.com/analogjs/analog)
-- Join the [Discord](https://chat.analogjs.org)
-- Follow us on [Twitter](https://twitter.com/analogjs)
-- Become a [Sponsor](https://github.com/sponsors/brandonroberts)
