@@ -2,12 +2,15 @@
 title: Building a Blog with Angular and Analog.js
 slug: build-analog-blog
 description: An example blog post on how to build a blog with A gular and AnalogJs, a complete guide.
-coverImage: https://images.unsplash.com/photo-1517273006195-51fa3364bce2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1073&q=80
+coverImage: https://images.unsplash.com/photo-1566753323558-f4e0952af115?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWFsZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60
 author: John Doe
-authorInfo: Software Engineer
+authorInfo: Software Engineer-ChatGPT
+date: Feb 28, 2021
 ---
 
 # Building a Blog with Angular and Analog.js
+
+> This post is created by ChatGpt just to have example content in this template project!
 
 In the world of web development, creating a dynamic and visually appealing blog can be a great way to showcase your skills and share your thoughts with the world. In this tutorial, we'll walk you through the process of building a blog using Angular, a popular front-end framework, and Analog.js, a JavaScript library for creating interactive visualizations. By the end of this guide, you'll have a fully functional blog that integrates engaging data visualizations powered by Analog.js.
 

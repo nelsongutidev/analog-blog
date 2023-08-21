@@ -2,10 +2,15 @@
 title: Exploring the View Transition API
 slug: view-transition-api
 description: In this post, we'll delve into the exciting realm of the View Transition API and discover how it empowers us to create seamless and dynamic transitions between views.
-coverImage: https://images.unsplash.com/photo-1454779132693-e5cd0a216ed3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80
+coverImage: https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80
+author: Jane Doe-ChatGPT
+authorInfo: Software Engineer-ChatGPT
+date: March 23, 2022
 ---
 
 # Exploring the View Transition API
+
+> This post is created by ChatGpt just to have example content in this template project!
 
 In the ever-evolving world of web development, user experience is paramount. The smoother and more engaging our web applications are, the better the chances of retaining users. This is where the View Transition API comes into play. In this post, we'll delve into the exciting realm of the View Transition API and discover how it empowers us to create seamless and dynamic transitions between views.
 

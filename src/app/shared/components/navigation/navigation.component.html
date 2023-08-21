@@ -22,16 +22,16 @@
         class="menu menu-sm dropdown-content mt-3 z-[1] p-2 rounded-box w-52"
       >
         <li *ngFor="let link of links">
-          <a class="" [routerLink]="link.path" routerLinkActive="active">{{
+          <a class="" [routerLink]="link.path" routerLinkActive="underline">{{
             link.label
           }}</a>
         </li>
       </ul>
     </div>
     <a
-      class="flex items-center justify-center link link-hover pl-4"
+      class="flex items-center justify-center pl-4"
       routerLink="/"
-      routerLinkActive="active"
+      routerLinkActive="underline"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -52,7 +52,7 @@
   <div class="navbar-center hidden lg:flex">
     <ul class="menu menu-horizontal px-1">
       <li *ngFor="let link of links">
-        <a class="" [routerLink]="link.path" routerLinkActive="active">{{
+        <a class="" [routerLink]="link.path" routerLinkActive="underline">{{
           link.label
         }}</a>
       </li>
