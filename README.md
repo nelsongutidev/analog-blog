@@ -2,7 +2,7 @@
 
 This project was generated with [Analog](https://analogjs.org) and [DaisyUI](https://daisyui.com/)
 
-![image](https://github.com/nelsongutidev/analog-blog/assets/62297014/69b60d64-29cd-4e5e-85c7-6a435861abc6)
+![image](https://github.com/nelsongutidev/analog-blog/assets/62297014/86efa6f5-e0a7-4a4f-9235-75fa78d8e246)
 
 ## Project details
 
