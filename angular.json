@@ -5,14 +5,14 @@
   "projects": {
     "my-app": {
       "projectType": "application",
-      "root": "",
+      "root": ".",
       "sourceRoot": "src",
       "prefix": "app",
       "architect": {
         "build": {
           "builder": "@nx/vite:build",
           "options": {
-            "configFile": "vite.config.ts",
+            "configFile": "vite.config.mts",
             "main": "src/main.ts",
             "outputPath": "dist/client"
           },
