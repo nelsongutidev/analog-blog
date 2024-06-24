@@ -8,7 +8,7 @@ import { RouterLink, RouterModule } from '@angular/router';
     <section class="flex items-center flex-col">
       <h1 class="font-bold md:text-5xl text-3xl py-8">About</h1>
       <div class="mockup-code">
-        <pre data-prefix="$"><code>npm create analog@latest</code></pre>
+        <pre data-prefix="$"><code>npm create analog&#64;latest</code></pre>
 
         <pre
           data-prefix=">"
