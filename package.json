@@ -46,7 +46,7 @@
     "@angular/compiler-cli": "^18.0.4",
     "@nx/vite": "^16.4.0",
     "autoprefixer": "^10.4.14",
-    "daisyui": "^3.5.1",
+    "daisyui": "^4.12.7",
     "jsdom": "^22.1.0",
     "nx": "^16.4.0",
     "postcss": "^8.4.21",
