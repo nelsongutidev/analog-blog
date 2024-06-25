@@ -5,7 +5,6 @@ import analog from '@analogjs/platform';
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  publicDir: 'src/assets',
   build: {
     target: ['es2020'],
   },
@@ -17,9 +16,9 @@ export default defineConfig(({ mode }) => ({
       prerender: {
         routes: [
           '/blog',
-          '/blog/build-analog-blog',
-          '/blog/git-tutorial',
-          '/blog/view-transition-api',
+          '/blog/posts/build-analog-blog',
+          '/blog/posts/git-tutorial',
+          '/blog/posts/view-transition-api',
           '/about',
           '/contact',
         ],
@@ -29,7 +28,7 @@ export default defineConfig(({ mode }) => ({
   test: {
     globals: true,
     environment: 'jsdom',
-    setupFiles: ['src/test.ts'],
+    setupFiles: ['src/test-setup.ts'],
     include: ['**/*.spec.ts'],
   },
   define: {
